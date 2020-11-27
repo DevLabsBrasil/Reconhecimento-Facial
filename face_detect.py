@@ -5,7 +5,7 @@ class FaceDetect(object):
 	def __init__(self, image="img.png"):
 
 		"""
-		image:str: Path de alguma imagem
+		image:str: Path de alguma imagem, padrão `img.png`
 		"""
 
 		self.img = cv2.imread(image)
