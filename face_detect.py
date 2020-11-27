@@ -11,7 +11,7 @@ class FaceDetect(object):
 		self.img = cv2.imread(image)
 		self.gray = cv2.cvtColor(self.img, cv2.COLOR_BGR2GRAY)
 		self.clf = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-		self.eclf = cv2.CascadeClassifier("haarcascade_eye.xml")
+		self.eclf = cv2.CascadeClassifier("haarcascade_eye.xml") # Carrega o arquivo necessário.
 
 	@property
 	def face(self):
