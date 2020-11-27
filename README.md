@@ -1,5 +1,5 @@
-Reconhecimento-Facial | Código Fonte
+Reconhecimento Facial simples desenvolvido na linguagem Python.
 
-#### Para baixar o OpenCV baixa executar esse comando no **Terminal** ou **CMD**
+Baixe o módulo OpenCV abrindo seu *terminal* ou *cmd* e digite:
 
->pip install opencv-python
+**pip install opencv-python**
